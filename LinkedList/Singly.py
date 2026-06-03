@@ -70,7 +70,7 @@ class SLL:
     
     def delete_end(self):
         if self.head == None:
-            print("LL is Empty")
+            print("Linked List is Empty")
             return
         curr = self.head
         while curr.next.next:
@@ -79,7 +79,7 @@ class SLL:
         
     def delete_position(self,pos):
         if self.head == None:
-            print("LL IS EMPTY")
+            print("Linked List is Empty")
             return
         curr = self.head
         for i in range(pos - 2):
