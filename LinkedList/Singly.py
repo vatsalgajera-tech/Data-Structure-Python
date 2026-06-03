@@ -52,7 +52,7 @@ class SLL:
     
     def search(self,data):
         if self.head == None:
-            print("Linkedlist is Empty.")
+            print("Linkedlist is Empty!")
             return
         curr = self.head
         while curr:
@@ -64,13 +64,13 @@ class SLL:
     
     def delete_begin(self):
         if self.head == None:
-            print("Linked List is Empty.")
+            print("Linked List is Empty!")
             return
         self.head = self.head.next
     
     def delete_end(self):
         if self.head == None:
-            print("Linked List is Empty")
+            print("Linked List is Empty!")
             return
         curr = self.head
         while curr.next.next:
@@ -79,7 +79,7 @@ class SLL:
         
     def delete_position(self,pos):
         if self.head == None:
-            print("Linked List is Empty")
+            print("Linked List is Empty!")
             return
         curr = self.head
         for i in range(pos - 2):
