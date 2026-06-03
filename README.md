@@ -61,7 +61,7 @@ Data-Structure-Python/
 ├── LinkedList/
 ├── Sorting and Seaching/
 ├── Stack and Queue/
-└── Tree andGraph/
+└── Tree and Graph/
 ```
 
 ## Purpose
